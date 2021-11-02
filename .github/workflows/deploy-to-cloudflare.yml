@@ -9,6 +9,8 @@ jobs:
     name: Deploy to Cloudflare Workers
     steps:
       - uses: actions/checkout@master
+      - name: Install dependencies
+        run: "npm ci"
       - name: Build
         run: "npx rakkas build -t cloudflare-workers"
       - name: Publish
