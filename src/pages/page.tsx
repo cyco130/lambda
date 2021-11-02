@@ -4,7 +4,7 @@ import { Page } from "rakkasjs";
 const HomePage: Page = function HomePage() {
 	return (
 		<main>
-			<h1>Hello serverless!</h1>
+			<h1>Hello serverless!!!</h1>
 			<p>Welcome to Rakkas.JS demo page.</p>
 			<p>
 				Try editing <code>src/pages/page.tsx</code> or{" "}
