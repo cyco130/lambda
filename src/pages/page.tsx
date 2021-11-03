@@ -4,19 +4,11 @@ import { Page } from "rakkasjs";
 const HomePage: Page = function HomePage() {
 	return (
 		<main>
-			<h1>Hello serverless!!!</h1>
-			<p>Welcome to Rakkas.JS demo page.</p>
+			<h1>Hello serverless!</h1>
+			<p>Welcome to Rakkas.JS serverless demo page.</p>
 			<p>
-				Try editing <code>src/pages/page.tsx</code> or{" "}
-				<code>src/pages/layout.tsx</code> to get started or go to the{" "}
-				<a href="https://rakkasjs.org" target="_blank" rel="noreferrer">
-					website
-				</a>
-				.
-			</p>
-			<p>
-				You may also check the little <a href="/todo">TODO application</a> to
-				learn about API endpoints and data fetching.
+				Check the little <a href="/todo">TODO application</a> to learn about API
+				endpoints and data fetching.
 			</p>
 		</main>
 	);
