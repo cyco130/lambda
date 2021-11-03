@@ -9,7 +9,7 @@ workers_dev = true
 zone_id = ''
 
 [build]
-command = "npm install && npx rakkas build -t cloudflare-workers"
+command = "npx rakkas build -t cloudflare-workers"
 
 [build.upload]
 format = "service-worker"
